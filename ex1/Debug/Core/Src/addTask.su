@@ -1,0 +1,6 @@
+addTask.c:11:6:led_Red_test	8	static
+addTask.c:14:6:led_Yellow_test	8	static
+addTask.c:17:6:led_Green_test	8	static
+addTask.c:20:6:led_Purple_test	8	static
+addTask.c:23:6:led_White_test	8	static
+addTask.c:26:6:led_Blue_test	8	static
