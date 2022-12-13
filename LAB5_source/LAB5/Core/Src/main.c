@@ -162,7 +162,6 @@ void fsm_communication_uart(){
 		case WAIT:
 			if(timer1_flag >= 1) {
 				setTimer1(3000) ;
-//				messenger = INIT;
 				if(ADC_temp == -99){
 					HAL_UART_Transmit(&huart2, (void*)str, sprintf(str, "\r\n!ADC=%ld#\r\n",ADC_temp), 1000);
 				}else{
@@ -170,6 +169,7 @@ void fsm_communication_uart(){
 				}
 
 			}
+			break;
 		default:
 			break;
 	}
